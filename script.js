@@ -15,7 +15,7 @@
 // console.log("par value: " + par);
 $("h1").click(function() {
 	console.log("clicked");
-	$.getJSON("https://sf-pyw.mosyag.in/m04/api/forecasts", function(data) {
+	$.getJSON("http://sf-pyw.mosyag.in/m04/api/forecasts", function(data) {
 		console.log("read JSON");
 		$.each(data["prophecies"], function(i, d) {
 			console.log("i value: ", i);
